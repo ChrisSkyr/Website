@@ -17,7 +17,7 @@
   margin-top: 2rem;
   gap: 1.25rem;
   padding: 0;
-  border: 1px solid rgb(23, 89, 156);
+  border: 2px solid rgb(23, 89, 156);
   border-radius: 10px;
 }
 .provider-list li {
@@ -25,7 +25,7 @@
   flex-direction: column;
   list-style: none;
   justify-items: center;
-  border-bottom: 1px solid rgb(23, 89, 156);
+  border-bottom: 2px solid rgb(23, 89, 156);
 }
 .provider-list li p {
   display: flex;
