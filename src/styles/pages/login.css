@@ -1,0 +1,41 @@
+.login-container {
+  margin: 0.5rem 23rem;
+  display: flex;
+  flex-direction: column;
+}
+.login-top {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+.login-container p {
+  font-size: 1.25rem;
+}
+.provider-list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  gap: 1.25rem;
+  padding: 0;
+  border: 1px solid rgb(23, 89, 156);
+  border-radius: 10px;
+}
+.provider-list li {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  justify-items: center;
+  border-bottom: 1px solid rgb(23, 89, 156);
+}
+.provider-list li p {
+  display: flex;
+  justify-content: center;
+}
+.list-item div {
+  margin-left: auto;
+  margin-right: auto;
+}
+.provider-list li > * {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}

@@ -1,0 +1,23 @@
+.signInBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 30px;
+  color: white;
+  border: none;
+  font-size: 1.25rem;
+  background-image: linear-gradient(
+    45deg,
+    rgba(3, 126, 255, 1) 27%,
+    rgba(117, 201, 255, 1) 78%
+  );
+
+  transition: transform 0.3s ease, box-shadow 0.3s ease,
+    -webkit-transform 0.3s ease;
+  padding: 0.15rem 0.75rem;
+}
+
+.signInBtn:hover {
+  transform: translate(0, -5px);
+}
