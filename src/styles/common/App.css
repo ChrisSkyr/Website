@@ -9,5 +9,6 @@
   background-color: rgb(24, 104, 183);
 }
 .container {
+  display: flex;
   flex: 1;
 }
